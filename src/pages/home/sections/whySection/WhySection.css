@@ -1,0 +1,12 @@
+.whySection{
+    min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.whyTitle{
+    font-size: 96px;
+    width: 1098px;
+    height: 230px;
+    color: red;
+}
