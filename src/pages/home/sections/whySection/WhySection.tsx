@@ -1,5 +1,4 @@
 import "./WhySection.css";
-import robotWhy from "../../../../assets/robot-why.png"
 
 const WhySection = () => {
     return (
@@ -10,11 +9,6 @@ const WhySection = () => {
                 join ACM?
                 </h1>
                 <div className="robPic">
-                    <img
-                        src={robotWhy}
-                        alt="Robot"
-                        className="robot"
-                    />
                         <div className="chatBox chat-1">
                             Is this just another student club?
                         </div>
