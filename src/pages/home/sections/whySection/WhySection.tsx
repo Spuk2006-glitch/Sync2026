@@ -22,6 +22,10 @@ const WhySection = () => {
                             Is this worth my time?
                         </div>
                 </div>
+                <p className="whyText">
+                There are many reasons to join ACM. Enhance your professional career or academic life with ACM member benefits that include a free subscription to ACM’s flagship publication Communications of the ACM; online books, courses, videos, and webinars through the ACM Learning Center; opportunities to participate in Special Interest Groups, and conferences all over the world; optional discounted subscription to the ACM Digital Library; savings on peer-driven specialty magazines and research journals, plus other exclusive member discounts.
+                </p>
+
             </div>
         </div>
         
