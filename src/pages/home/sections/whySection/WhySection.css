@@ -1,12 +1,25 @@
-.whySection{
-    min-height: 100vh;
+.page{
+  width: 100%;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 3rem 1rem;
+}
+
+.whySection{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 .whyTitle{
-    font-size: 96px;
-    width: 1098px;
-    height: 230px;
-    color: red;
+    max-width: 1100px;
+    font-family: "Bounded", sans-serif;
+    font-weight: 900;
+    font-size: clamp(36px, 6vw, 96px);
+    line-height: 1.2;
+    text-align: center;
+    color:rgba(16, 160, 204, 1);
+    margin: 0;
 }
