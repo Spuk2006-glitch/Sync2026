@@ -1,6 +1,5 @@
 .page{
   width: 100%;
-  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,7 +24,7 @@
     text-align: center;
     color:rgba(16, 160, 204, 1);
     margin: 0 0 0 0;
-    margin-top: -120px;
+    margin-top: clamp(-120px, -12vh, -60px);
 }
 
 .whyText{
@@ -37,7 +36,7 @@
   font-family: 'Euclid Circular B', sans-serif;
   justify-content: center;
   align-items: center;
-  margin-top: -110px;
+  margin-top: clamp(-110px, -12vh, -50px);
 }
 
 
@@ -257,6 +256,19 @@
     margin-top: 0;
     padding: 0 1rem;
     line-height: 1.1;
+  }
+}
+
+@media (max-height: 700px) {
+  .robPic {
+    margin-bottom: 2vh;
+  }
+  .whyTitle{
+    margin-top: 1vh;
+  }
+  .page,
+  .whySection {
+    min-height: auto;
   }
 }
 
