@@ -40,117 +40,6 @@
 }
 
 
-
-/* initial 1 */
-/* .robPic{
-  position: relative;
-  width: fit-content;
-  margin: 0 0 0 0;
-  margin-bottom: 3vh;
-  background-image:url("../../../../assets/robot.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 60vh;
-  width:30vw;
-  top: -10vh;
-  min-width:300px;
-  z-index: 2;
-  
-}
-.robPic::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-
-  background-image: url("/src/assets/robot.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-
-  z-index: 2;    
-  pointer-events: none;
-}
-
- .chatBox{
-  position: relative;
-  background:rgba(16, 160, 204, 1);
-  font-family: 'Euclid Circular B', sans-serif;
-  font-size: 17px;
-  font-weight: 600;
-  line-height: 1.4;
-  max-width: 22rem;
-  min-width: 7rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  z-index: 1;
-}
-
-.chat-1 {
-  top: calc(81px + 1vh);     
-  right: calc(230px + 1vw);  
-  border-bottom-left-radius:100px;
-  border-top-right-radius: 84px;
-  border-top-left-radius: 100px; 
-}
-
-.chat-2{ top: 5vh; 
-  left: 25vw; 
-  border-top-left-radius:84px;
-  border-top-right-radius: 100px;
-  border-bottom-right-radius: 100px; 
-}
-
-.chat-3 {
-  top: calc(162px + 1.5vh); 
-  right: calc(220px + 1vw);
-  border-bottom-left-radius:100px;
-  border-top-left-radius: 100px;
-  border-bottom-right-radius: 84px; 
-}
-
-.chat-4{ 
-  top:10vh; 
-  left: 25vw; 
-  border-bottom-left-radius:84px;
-  border-top-right-radius: 100px;
-  border-bottom-right-radius: 100px; 
-} 
-
-
-@media(max-width:840px){
-  .robPic::before {
-    z-index: 100;
-  }
-
-  .chatBox {
-    z-index: 1;
-    opacity: 0.9; 
-    font-family: 'Euclid Circular B', sans-serif;
-    font-size: 12px;
-    font-weight: 600;
-  }
-  .chat-1,
-  .chat-3 {
-    right: calc(200px + 2vw);
-    text-align: left;
-  }
-
-  .chat-2,
-  .chat-4 {
-    left: calc(220px + 2vw);
-    text-align: right;
-  }
-
-} */
-
-
-/* final1 */
-
-
 .robPic {
   position: relative;
   aspect-ratio: 3 / 5;
@@ -271,6 +160,119 @@
     min-height: auto;
   }
 }
+
+
+/* initial 1 */
+/* .robPic{
+  position: relative;
+  width: fit-content;
+  margin: 0 0 0 0;
+  margin-bottom: 3vh;
+  background-image:url("../../../../assets/robot.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60vh;
+  width:30vw;
+  top: -10vh;
+  min-width:300px;
+  z-index: 2;
+  
+}
+.robPic::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background-image: url("/src/assets/robot.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  z-index: 2;    
+  pointer-events: none;
+}
+
+ .chatBox{
+  position: relative;
+  background:rgba(16, 160, 204, 1);
+  font-family: 'Euclid Circular B', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.4;
+  max-width: 22rem;
+  min-width: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  z-index: 1;
+}
+
+.chat-1 {
+  top: calc(81px + 1vh);     
+  right: calc(230px + 1vw);  
+  border-bottom-left-radius:100px;
+  border-top-right-radius: 84px;
+  border-top-left-radius: 100px; 
+}
+
+.chat-2{ top: 5vh; 
+  left: 25vw; 
+  border-top-left-radius:84px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px; 
+}
+
+.chat-3 {
+  top: calc(162px + 1.5vh); 
+  right: calc(220px + 1vw);
+  border-bottom-left-radius:100px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 84px; 
+}
+
+.chat-4{ 
+  top:10vh; 
+  left: 25vw; 
+  border-bottom-left-radius:84px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px; 
+} 
+
+
+@media(max-width:840px){
+  .robPic::before {
+    z-index: 100;
+  }
+
+  .chatBox {
+    z-index: 1;
+    opacity: 0.9; 
+    font-family: 'Euclid Circular B', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .chat-1,
+  .chat-3 {
+    right: calc(200px + 2vw);
+    text-align: left;
+  }
+
+  .chat-2,
+  .chat-4 {
+    left: calc(220px + 2vw);
+    text-align: right;
+  }
+
+} */
+
+
+/* final1 */
+
+
+
 
 
 
